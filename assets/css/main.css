@@ -1,18 +1,14 @@
-/* 
- * 1. Google Font
- */
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/* 
- * 2.0 Global Style
- */
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
 body {
   color: #4e4e4e;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
@@ -33,7 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Arvo", 'Open Sans', sans-serif;
 }
 
 p {
@@ -41,7 +38,6 @@ p {
 }
 
 ul li {
-  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -93,7 +89,6 @@ ul li {
   border: 0;
   border-radius: 0;
   padding: 6px 28px;
-  text-transform: uppercase;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-backface-visibility: hidden;
@@ -143,7 +138,6 @@ ul li {
   color: #313131;
   letter-spacing: 1px;
   margin: 0 0 20px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -246,7 +240,6 @@ ul li {
     color: #313131;
     letter-spacing: 1px;
     margin: 0 0 60px;
-    text-transform: uppercase;
     text-align: left;
   }
 }
@@ -268,8 +261,8 @@ ul li {
 .navbar-custom .navbar-nav > li > a {
   color: #fff;
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 700;
   border-bottom: 1px solid transparent;
 }
 .navbar-custom .navbar-nav > li > a:focus, .navbar-custom .navbar-nav > li > a:hover {
@@ -337,7 +330,6 @@ ul li {
   color: #fff;
   position: relative;
   text-align: center;
-  text-transform: uppercase;
   width: 100%;
   z-index: 1;
   padding: 0 15px;
@@ -400,7 +392,6 @@ ul li {
 .speaker {
   text-align: center;
   color: #313131;
-  text-transform: uppercase;
   margin: 25px 0;
 }
 .speaker h4 {
