@@ -420,7 +420,7 @@ ul li {
  * 6.6 Section: Schedule
  */
 .schedule-box {
-  position: relative;
+  position: fixed;
   background-color: #000;
   color: #fff;
   text-align: center;
